@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "A heavily biased Typescript ESLint configuration.",
   "main": "./ProperTS.js",
+  "repository": {
+    "url": "https://github.com/acelikesghosts/eslint-config-biased-ts",
+    "type": "Git"
+  },
+  "bugs": {
+    "url": "https://github.com/AceLikesGhosts/eslint-config-biased-ts/issues"
+  },
+  "files": [
+    "*.js",
+    "*/*.js"
+  ],
   "scripts": {},
   "keywords": [
     "eslint",
