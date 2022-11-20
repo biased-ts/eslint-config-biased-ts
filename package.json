@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-biased-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A heavily biased Typescript ESLint configuration.",
   "main": "./ProperTS.js",
   "repository": {
@@ -24,7 +24,7 @@
     "typescript"
   ],
   "author": "AceLikesGhosts",
-  "license": "Unlicence",
+  "license": "unlicence",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
