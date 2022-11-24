@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-biased-ts",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A heavily biased Typescript ESLint configuration.",
   "main": "./ProperTS.js",
   "repository": {

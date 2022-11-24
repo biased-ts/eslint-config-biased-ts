@@ -104,6 +104,10 @@ module.exports = {
         ],
         "@typescript-eslint/consistent-type-imports": [
             1,
+            {
+                "prefer": "type-imports",
+                "fixStyle": "separate-type-imports"
+            }
         ],
         "@typescript-eslint/consistent-type-exports": [
             1
