@@ -22,7 +22,7 @@ module.exports = {
         // Require an @param to have a type
         "jsdoc/require-property-type": [2],
         // Never have a hyphen before a parmater's description.
-        "jsdoc/require-hyphen-before-param-description": ["never"],
+        "jsdoc/require-hyphen-before-param-description": [2],
         // Require JSDoc comments to add an @throw if it can throw an error.
         "jsdoc/require-throws": [2],
         // Enforces paramter's to have a proper name that corrosponds with the function
