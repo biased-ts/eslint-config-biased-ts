@@ -5,8 +5,6 @@ module.exports = {
         "jsdoc"
     ],
     "rules": {
-        // Forces examples to adhere to linting rules.
-        "jsdoc/check-examples": [2],
         // Prevent multiple asterisks within a multi-line comment
         "jsdoc/no-multi-asterisks": [2],
         // Warns about bad blocks being used
