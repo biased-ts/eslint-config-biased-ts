@@ -7,8 +7,6 @@ module.exports = {
     "rules": {
         // Forces examples to adhere to linting rules.
         "jsdoc/check-examples": [2],
-        // Requires types to be provided in JSDoc.
-        "jsdoc/no-types": [2],
         // Prevent multiple asterisks within a multi-line comment
         "jsdoc/no-multi-asterisks": [2],
         // Warns about bad blocks being used
@@ -17,8 +15,6 @@ module.exports = {
         "jsdoc/require-asterisk-prefix": [2],
         // Warn if an invalid type is provided.
         "jsdoc/valid-types": [1],
-        // Require a @return to provide a proper type.
-        "jsdoc/require-returns-type": [2],
         // Require an @param to have a type
         "jsdoc/require-property-type": [2],
         // Never have a hyphen before a parmater's description.
