@@ -8,7 +8,7 @@ INSTALLATION
 ------------
  
  * Install both ESLint and eslint-config-biased-ts using your local package manager.
-   EX: `npm i eslint eslint-config-biased-ts`
+   EX: `npm i eslint @biased-ts/eslint-config`
 
  * From there, create or modify your `.eslintrc.` (or whatever naming convention you use) to either
    extend `ProperDoc` or `ProperTS`
