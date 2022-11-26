@@ -22,7 +22,7 @@ Recommended:
 ```json
 {
     "root": true,
-    "extends": [ "biased-eslint/ProperTSDoc", "biased-eslint/ProperTS" ],
+    "extends": [ "@biased-eslint/eslint-config/ProperTSDoc", "@biased-eslint/eslint-config/ProperTS" ],
     "parserOptions": {
         "project": "./tsconfig.json"
     },
@@ -34,7 +34,7 @@ Typescript:
 ```json
 {
     "root": true,
-    "extends": [ "biased-eslint/ProperTS" ],
+    "extends": [ "@biased-eslint/eslint-config/ProperTS" ],
     "parserOptions": {
         "project": "./tsconfig.json"
     },
@@ -46,7 +46,7 @@ JSDoc:
 ```json
 {
     "root": true,
-    "extends": [ "biased-eslint/JSDoc" ],
+    "extends": [ "@biased-eslint/eslint-config/JSDoc" ],
     "parserOptions": {
         "project": "./tsconfig.json"
     },
@@ -58,7 +58,7 @@ TSDoc:
 ```json
 {
     "root": true,
-    "extends": [ "biased-eslint/TSDoc" ],
+    "extends": [ "@biased-eslint/eslint-config/TSDoc" ],
     "parserOptions": {
         "project": "./tsconfig.json"
     },
