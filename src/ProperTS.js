@@ -17,7 +17,7 @@ module.exports = {
     "rules": {
         "brace-style": [
             2,
-            "allman",
+            "stroustrup",
             {
                 "allowSingleLine": true
             }
@@ -78,10 +78,15 @@ module.exports = {
                     "variable",
                     "function"
                 ],
-                // We use both pascal and camel in this project.
                 "format": [
+                    // types
                     "camelCase",
-                    "PascalCase"
+                    // important vars
+                    "PascalCase",
+                    // normal vars and funcs
+                    'snake_case',
+                    // constants
+                    'UPPER_CASE'
                 ]
             }
         ],
@@ -155,9 +160,6 @@ module.exports = {
             2
         ],
         "@typescript-eslint/promise-function-async": [
-            1
-        ],
-        "@typescript-eslint/prefer-readonly-parameter-types": [
             1
         ],
         "no-loss-of-precision": [
